@@ -8,7 +8,19 @@ namespace ICICBANK.API_MONOLITHICARCHITECHRE.Controllers.BANK_ACCOUNTS
     public class AccountsController : ControllerBase
     {
         //here you can write Accounts menu required crud opertion api methods
+        [HttpGet]
+        public async Task<IActionResult> GetAccountsInformation()
+        {
+            //get the information of user balance amount and account details
+            return Ok();
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> Generatethereport()
+        {
+            // return File("sample.pdf");
+            return Ok();
+        }
 
     }
 }

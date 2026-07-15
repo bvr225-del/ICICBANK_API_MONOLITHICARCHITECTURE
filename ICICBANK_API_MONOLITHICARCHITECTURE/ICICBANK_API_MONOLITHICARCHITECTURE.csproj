@@ -14,8 +14,6 @@
     <Folder Include="Controllers\BANK ACCOUNTS\" />
     <Folder Include="Controllers\CARDS &amp; LOANS\" />
     <Folder Include="Controllers\CUSTOMER SERVICE\" />
-    <Folder Include="Controllers\INVESTMENTS &amp; INSURANCE\" />
-    <Folder Include="Controllers\PAYMENTS &amp; TRANSFER\" />
     <Folder Include="Controllers\OVERVIEW\" />
     <Folder Include="ICICBANKDocumentforrefrerence\" />
     <Folder Include="Utils\" />

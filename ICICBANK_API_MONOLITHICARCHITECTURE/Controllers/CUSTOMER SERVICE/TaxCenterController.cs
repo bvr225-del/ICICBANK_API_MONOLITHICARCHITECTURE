@@ -7,5 +7,19 @@ namespace ICICBANK.API.Controllers.CustomerService
     [ApiController]
     public class TaxCenterController : ControllerBase
     {
+        [HttpGet]
+        public async Task<IActionResult> GetAccountsInformation()
+        {
+            //get the information of user balance amount and account details
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Generatethereport()
+        {
+            // return File("sample.pdf");
+            return Ok();
+        }
+
     }
 }

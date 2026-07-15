@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ICICBANK.API_MONOLITHICARCHITECHRE.Controllers.BANK_ACCOUNTS
+namespace ICICBANK.API.Controllers.Investments_Insurance
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SSYAccountsController : ControllerBase
+    public class PPFAccounts1Controller : ControllerBase
     {
         [HttpGet]
         public async Task<IActionResult> GetAccountsInformation()

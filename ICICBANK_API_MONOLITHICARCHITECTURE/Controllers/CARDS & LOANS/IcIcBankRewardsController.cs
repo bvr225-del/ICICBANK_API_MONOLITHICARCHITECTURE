@@ -8,5 +8,19 @@ namespace ICICBANK.API.Controllers.Cards_Loans
     public class IcIcBankRewardsController : ControllerBase
     {
 
+        [HttpGet]
+        public async Task<IActionResult> GetAccountsInformation()
+        {
+            //get the information of user balance amount and account details
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Generatethereport()
+        {
+            // return File("sample.pdf");
+            return Ok();
+        }
+
     }
 }

@@ -7,6 +7,19 @@ namespace ICICBANK.API.Controllers.Investments_Insurance
     [ApiController]
     public class GeneralnsurenceController : ControllerBase
     {
+        [HttpGet]
+        public async Task<IActionResult> GetAccountsInformation()
+        {
+            //get the information of user balance amount and account details
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Generatethereport()
+        {
+            // return File("sample.pdf");
+            return Ok();
+        }
 
     }
 }
