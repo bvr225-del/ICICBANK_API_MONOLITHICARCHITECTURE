@@ -2,7 +2,7 @@
 
 namespace ICICBANK.API_MONOLITHICARCHITECHRE.Repository.BANK_ACCOUNTS
 {
-    public class WishGoalsRepository : IWishGoalsRepository
+    public class IWishGoalsRepository : IIWishGoalsRepository
     {
     }
 }

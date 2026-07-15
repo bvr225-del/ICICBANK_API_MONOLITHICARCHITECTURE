@@ -1,6 +1,6 @@
 ﻿namespace ICICBANK.API_MONOLITHICARCHITECHRE.Interfaces.BANK_ACCOUNTS
 {
-    public interface IWishGoalsRepository
+    public interface IIWishGoalService
     {
     }
 }

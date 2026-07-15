@@ -18,7 +18,6 @@
     <Folder Include="Controllers\PAYMENTS &amp; TRANSFER\" />
     <Folder Include="Controllers\OVERVIEW\" />
     <Folder Include="ICICBANKDocumentforrefrerence\" />
-    <Folder Include="Interfaces\BANK ACCOUNTS\" />
     <Folder Include="Utils\" />
   </ItemGroup>
 
